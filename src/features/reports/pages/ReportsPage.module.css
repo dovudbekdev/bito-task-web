@@ -1,0 +1,21 @@
+.filters {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 200px));
+  gap: var(--space-4);
+  margin-bottom: var(--space-6);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: var(--space-4);
+}
+
+.value {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.profit {
+  color: var(--color-success);
+}
